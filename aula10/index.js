@@ -10,4 +10,3 @@ const nomeprof = null; //Nulo -> Não aponta pra local nenhum da memória
 const aprovado = true; //ou false, boolean igual o python  
 
 console.log(typeof nomeprof)
-
