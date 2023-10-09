@@ -1,1 +1,4 @@
-document.write('Olá mundo');
+function alert(){
+    alert('Olá Mundo');
+}
+alert();
