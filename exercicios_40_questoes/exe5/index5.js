@@ -1,3 +1,11 @@
+let nomeCompleto = prompt('Digite seu nome');
+
+const qdtLetras = nomeCompleto.length;
+
+console.log(`O seu nome tem ${qdtLetras} letras`);
+
+
+/*
 function global(){
 
     const letras = document.getElementById("digitar-nome").value;
@@ -11,3 +19,4 @@ function global(){
     
 }
 global();
+ */

@@ -6,9 +6,22 @@
     <title>Exercício 5</title>
 </head>
 <body>   
-    <input type="text" name="nome" id="digitar-nome"/>
-    <input type="button" value="Enviar" id="qdt-letras"/>
+    <input type="text" name ="nome-completo" id="nome-completo"/>
+    <input type="button" value="Enviar" id="botao-nome"/>
+
+    <script type="text/javascript">
+     const inicioLetras = document.getElementById("botao-nome").addEventListener("click", function(){
+        const nomeCompleto = document.getElementById('nome-completo').value;
  
-    <script src="index5.js"></script>
+        const qtdLetras = nomeCompleto;
+        const letrasN = String(qtdLetras);
+        const letrasFinal = letrasN.length;
+
+        alert(letrasFinal);
+    });
+
+  
+    </script>
+
 </body>
 </html>
